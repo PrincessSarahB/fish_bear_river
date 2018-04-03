@@ -4,4 +4,7 @@ def initialize(name, number_of_fish)
 @number_of_fish = number_of_fish
 end
 
+def river_name
+return @name 
+end
 end
