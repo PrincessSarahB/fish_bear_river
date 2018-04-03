@@ -10,4 +10,14 @@ end
 def get_bear_name()
 return @bear_name
 end
+
+def stomach()
+  return @stomach_contents
+end
+
+def eat(river)
+food = river.lose_fish
+@stomach_contents.push(food)
+
+end
 end
