@@ -27,4 +27,8 @@ def test_bear_can_eat_fish()
 
 assert_equal(1, @bear.stomach.count)
 end
+
+def test_bear_roar()
+assert_equal("Rooooar",@bear.roar)
+end
  end
