@@ -7,19 +7,19 @@ require_relative("../bear.rb")
 
 class FishTest < MiniTest::Test
 
-def setup()
+  def setup()
 
-@fish = Fish.new("Wanda")
-@fish2 = Fish.new("Flounder")
-@fish3 = Fish.new("Speedo")
-@fish4 = Fish.new("Goldie")
+    @fish = Fish.new("Wanda")
+    @fish2 = Fish.new("Flounder")
+    @fish3 = Fish.new("Speedo")
+    @fish4 = Fish.new("Goldie")
 
-end
+  end
 
-def test_fish_name
+  def test_fish_name
 
-assert_equal("Wanda", @fish.fish_name)
+    assert_equal("Wanda", @fish.fish_name)
 
-end
+  end
 
 end

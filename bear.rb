@@ -1,27 +1,29 @@
 class Bear
 
-def initialize(bear_name, stomach_contents)
+  def initialize(bear_name, stomach_contents)
 
-@bear_name = bear_name
-@stomach_contents = stomach_contents
+    @bear_name = bear_name
+    @stomach_contents = stomach_contents
 
-end
+  end
+  
+  def get_bear_name()
+    return @bear_name
+  end
 
-def get_bear_name()
-return @bear_name
-end
+  def stomach()
+    return @stomach_contents
+  end
 
-def stomach()
-  return @stomach_contents
-end
+  def eat(river)
+    food = river.lose_fish
+    @stomach_contents.push(food)
 
-def eat(river)
-food = river.lose_fish
-@stomach_contents.push(food)
+  end
 
-end
+  def roar
+    return "Rooooar"
+  end
 
-def roar
-  return "Rooooar"
-end 
+
 end
