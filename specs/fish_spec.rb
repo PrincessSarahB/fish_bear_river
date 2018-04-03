@@ -3,7 +3,7 @@ require("minitest/rg")
 
 require_relative("../fish.rb")
 
-class FishTest
+class FishTest < MiniTest::Test
 
 def setup()
 
