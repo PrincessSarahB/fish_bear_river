@@ -17,6 +17,6 @@ def add_fish(fish)
 end
 
 def lose_fish()
-@number_of_fish.pop
+@number_of_fish.pop()
 end
 end
