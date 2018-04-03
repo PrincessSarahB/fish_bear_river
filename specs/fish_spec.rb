@@ -11,4 +11,7 @@ def setup()
 
 end
 
+def test_fish_name
+
+end 
 end
